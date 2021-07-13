@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+/* ******************* */
+/* my own things below */
+/* ******************* */
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Benne', serif;
+  font-weight: bold;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url('../public/images/potential-hero-tinified/the-ny-public-library-1560401.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+/* Tooltip */
+.tooltip {
+  background-color: lightblue;
+  color: purple;
+  border: 1px solid purple;
+  padding: 5px;
+  font-size: 18px;
+}
