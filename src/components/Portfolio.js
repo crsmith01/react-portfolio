@@ -53,17 +53,17 @@ const Portfolio = () => {
         {
             id: 6, 
             name: 'Fitness Tracker',
-            description: ,
-            img: ,
-            alt: ,
-            repo: ,
-            deployedApp: 
+            description: 'Application to allow users to view, create, and track daily workouts.',
+            img: '../public/images/images-tinified/fitness-tracker-stats.png',
+            alt: 'Screenshot of stats page of fitness tracker application',
+            repo: 'https://github.com/crsmith01/fitness-tracker',
+            deployedApp: 'https://protected-tundra-70136.herokuapp.com/'
         },
         {
             id: 7, 
             name: 'Progressive Budget',
             description: 'Updated an existign budget tracking application to allow for offline access and functionality. The user is able able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they can populate the total when brought back online. ',
-            img: ,
+            img: '../public/images/images-tinified/pwa-screenshot.png',
             alt: 'Screenshot of progressive budget application functionality',
             repo: 'https://github.com/crsmith01/progressive-budget',
             deployedApp: 'https://mighty-sierra-97786.herokuapp.com/'
