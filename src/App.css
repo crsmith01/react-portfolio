@@ -58,6 +58,14 @@ body {
 }
 
 
+.nav {
+  background-color: transparent !important;
+  max-width: 75%;
+  display: flex;
+  align-items: center;
+  margin: auto; 
+}
+
 /* Tooltip */
 .tooltip {
   background-color: lightblue;
