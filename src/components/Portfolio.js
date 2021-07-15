@@ -38,7 +38,7 @@ const Portfolio = () => {
             alt: 'Screenshot of welcome page of employee tracker application',
             repo: 'https://github.com/crsmith01/hw11-employee-tracker',
             // need to show way of this having a deployed app?
-            deployedApp: 
+            // deployedApp: 
         },
         {
             id: 5, 
@@ -48,7 +48,7 @@ const Portfolio = () => {
             alt: 'Gif animation of back end of e-commerce application',
             repo: 'https://github.com/crsmith01/hw12-e-commerce-back-end',
             // need to show way of this having a deployed app?
-            deployedApp: 
+            // deployedApp: 
         },
         {
             id: 6, 
