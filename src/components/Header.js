@@ -1,6 +1,8 @@
 // might just call NavBar
 
 // import what I need to import
+import React from 'react';
+// which to use
 import React, { useState } from 'react';
 
 import Contact from './Contact';
@@ -53,6 +55,7 @@ export const NavBar = () => {
                         href='https://github.com/crsmith01'
                         target='_blank'
                         className='links'
+                        // react tooltip - need to change to data-tip from data-placement
                         data-toggle="tooltip" 
                         title="GitHub Profile"
                         data-placement="bottom"
