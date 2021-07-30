@@ -6,16 +6,18 @@ import {
   Link
 } from "react-router-dom";
 import './App.css';
-import Home from './components/Home';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import NavBar from './components/layout/NavBar';
 import Jumbotron from 'react-bootstrap/Jumbotron';
+import Home from './components/pages/Home';
+import Portfolio from './components/pages/Portfolio';
+import Footer from './components/layout/Footer';
+
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Header /> 
+        <NavBar /> 
         <Jumbotron>
           <h1>Hello, I'm Catherine!</h1>
           <p>
