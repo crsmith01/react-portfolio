@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
 import Technologies from '../Technologies';
+import catherineHeadshot from '../../assets/images/images-tinified/catherine-headshot-sunken-garden.png';
 
 
 const Home = () => {
@@ -14,9 +15,10 @@ const Home = () => {
                     <div id='aboutMe'>
                         <section id='aboutMeContainer'>
                             <Image
-                                src='../public/images/images-tinified/catherine-headshot-sunken-garden.png'
-                                alt='Catherine Smith headshot'
                                 className='headshot'
+                                src={catherineHeadshot}
+                                // src='../public/images/images-tinified/catherine-headshot-sunken-garden.png'
+                                alt='Catherine Smith headshot'
                                 roundedCircle
                             />
                             <div id='aboutMeText'>
