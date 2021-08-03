@@ -5,7 +5,7 @@ import React from 'react';
 // which to use
 import React, { useState } from 'react';
 
-import Contact from '../Contact';
+import contactModal from '../Contact';
 
 // boostrap imports
 import Nav from 'react-bootstrap/Nav';
@@ -15,6 +15,9 @@ import ReactTooltip from 'react-tooltip';
 // need to adjust tooltip to reacttooltip
 https://www.npmjs.com/package/react-tooltip
 
+import Tooltip from 'react-bootstrap/Tooltip';
+import Overlay from 'react-bootstrap/Overlay';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 
 
 export const NavBar = () => {
@@ -45,9 +48,7 @@ export const NavBar = () => {
                         // noreferrer - to prevent knowing where user came from  - Google Analytics Direct traffic instaed of Referral traffic
                         // noopener - disables the JS window.opener property for increased securtity - best practice?
                         rel='noreferrer noopener'
-
                     >
-
                         Resume
                     </Nav.Link>
 
