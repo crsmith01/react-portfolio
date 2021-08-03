@@ -1,23 +1,20 @@
-// might just call NavBar
-
-// import what I need to import
-import React from 'react';
-// which to use
 import React, { useState } from 'react';
+import Contact from './components/Contact';
 
 import contactModal from '../Contact';
 
-// boostrap imports
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { LinkContainer } from 'react-router-bootstrap';
-import ReactTooltip from 'react-tooltip';
-// need to adjust tooltip to reacttooltip
-https://www.npmjs.com/package/react-tooltip
+// import { LinkContainer } from 'react-router-bootstrap';
+// import ReactTooltip from 'react-tooltip';
+
 
 import Tooltip from 'react-bootstrap/Tooltip';
 import Overlay from 'react-bootstrap/Overlay';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+
+import Container from 'react-bootstrap/Container';
+
 
 
 export const NavBar = () => {

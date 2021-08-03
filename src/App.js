@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import NavBar from './components/layout/NavBar';
-import Jumbotron from 'react-bootstrap/Jumbotron';
+// import Jumbotron from 'react-bootstrap/Jumbotron';
 import Home from './components/pages/Home';
 import Portfolio from './components/pages/Portfolio';
 import Footer from './components/layout/Footer';
@@ -18,7 +18,7 @@ function App() {
     <Router>
       <div className="App">
         <NavBar /> 
-        <Jumbotron>
+        {/* <Jumbotron> */}
           <h1>Hello, I'm Catherine!</h1>
           <p>
             Full Stack Web Developer. Librarian. Soprano. Shakespeare Nerd.
@@ -30,7 +30,7 @@ function App() {
             {/* All other paths will lead home */}
             <Route path='/*' component={Home} />
           </Switch>
-        </Jumbotron>
+        {/* </Jumbotron> */}
         <Footer />
       </div>
     </Router>
