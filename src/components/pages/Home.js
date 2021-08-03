@@ -11,19 +11,17 @@ const Home = () => {
             <Row>
                 <div id='aboutMe'>
                     <section id='aboutMeContainer'>
-                        <div id='headshot'>
-                            <Image 
-                            src='../public/images/images-tinified/catherine-headshot-sunken-garden.png' 
+                        <Image
+                            src='../public/images/images-tinified/catherine-headshot-sunken-garden.png'
                             alt='Catherine Smith headshot'
                             className='headshot'
                             roundedCircle
-                            />
-                        </div>
+                        />
                         <div id='aboutMeText'>
                             <h1><u> About Me </u></h1>
                             <br></br>
                             <p>
-                                My name is Catherine, and I am an emerging full-stack web developer currently completing the
+                                My name is Catherine, and I am an emerging full-stack Javascript web developer currently completing the
                                 University of Richmond's Coding Bootcamp. After earning my BA in Music and Shakespeare Studies
                                 at the College of William and Mary, I ventured to Glasgow to acquire my MSc in Information and Library Studies at the
                                 University of Strathclyde. I decided to pursue web development because it's a fast-paced,
