@@ -18,11 +18,11 @@ const Portfolio = () => {
             {Projects.map((data, i) => {
                 return (
                     <Card key={i} style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={data.img} alt={data.alt}/>
+                        <Card.Img variant="top" src={data.img} alt={data.alt} />
                         <Card.Body>
                             <Card.Title>{data.name}</Card.Title>
                             <Card.Text>
-                                {data.description}}
+                                {data.description}
                             </Card.Text>
                             <Card.Link href={data.repo} variant="primary">Repo</Card.Link>
                             <Card.Link href={data.deployedApp} variant="secondary">Deployed App</Card.Link>
