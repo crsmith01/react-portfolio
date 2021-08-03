@@ -1,9 +1,11 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 
 
 
-function contactModal() {
+function Contact() {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -81,7 +83,7 @@ function contactModal() {
     );
 }
 
-render(<contactModal />);
+render(<Contact />);
 
 //   or should it be:
-export default contactModal;
+export default Contact;
