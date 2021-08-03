@@ -5,7 +5,7 @@ import React from 'react';
 // which to use
 import React, { useState } from 'react';
 
-import Contact from './Contact';
+import Contact from '../Contact';
 
 // boostrap imports
 import Nav from 'react-bootstrap/Nav';
