@@ -33,9 +33,9 @@ export const Technologies = () => {
                 </Col>
                 <Col>
                     <ul className='techList'>
-                        <li>GitHub & Git Pages * Git</li>
+                        <li>GitHub, Git Pages, & Git Commands</li>
                         <li>Heroku & Digital Oceans</li>
-                        <li>Bootstrap & Bulma & Semantic UI</li>
+                        <li>Bootstrap, Bulma, & Semantic UI</li>
                         <li>Insomnia & Postman</li>
                         <li>MySQL & Sequelize</li>
                         <li>MongoDB & Mongoose & Robo 3T</li>

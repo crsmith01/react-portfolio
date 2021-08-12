@@ -32,7 +32,7 @@ function Contact() {
                         <a href='mailto:catsmith24601@gmail.com'> catsmith24601@gmail.com</a>
                         <br />
                         Phone:
-                        <a href='tel:+18049297812'> (804) 929-7812)</a>
+                        <a href='tel:+18049297812'> (804) 929-7812</a>
                         <br />
                         {/* Might put these in Navbar separately/outside of modal, so holding off here for now */}
                         LinkedIn

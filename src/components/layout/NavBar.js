@@ -2,7 +2,7 @@ import React from 'react';
 // import Contact from './components/Contact';
 
 import Contact from '../Contact';
-
+import Image from 'react-bootstrap/Image';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // import { LinkContainer } from 'react-router-bootstrap';
@@ -22,7 +22,9 @@ export const NavBar = () => {
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
                 {/* either eliminate .Brand or add CRS logo here instead */}
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand href="#home">
+                    <Image src='/images/images-tinified/CRS-Logo.png' alt='CRS Logo'/>
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
@@ -54,7 +56,7 @@ export const NavBar = () => {
                             target='_blank'
                             className='links'
                             // react tooltip - need to change to data-tip from data-placement
-                            data-toggle="tooltip"
+                            // data-toggle="tooltip"
                             title="GitHub Profile"
                             data-placement="bottom"
                             rel='noreferrer noopener'>
