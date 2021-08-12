@@ -50,8 +50,8 @@ export const Technologies = () => {
                         <li>Font Awesome & Google Fonts</li>
                         <li>Sweetalerts</li>
                         <li>Progressive Web Apps (PWAs)</li>
-                        <li>TypeDefs and Resolvers</li>
-                        <li>Queries and Mutations</li>
+                        <li>TypeDefs & Resolvers</li>
+                        <li>Queries & Mutations</li>
                         <li>Manifest.json & Service workers</li>
                         <li>GraphQL & Apollo Server</li>
                         <li>Authentication (JWT)</li>
