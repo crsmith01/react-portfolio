@@ -22,18 +22,18 @@ export const NavBar = () => {
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
                 {/* either eliminate .Brand or add CRS logo here instead */}
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="/home">
                     <Image src='/images/images-tinified/CRS-Logo.png' alt='CRS Logo'/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         {/* Links for Home, Portfolio, Contact, Resume, and Relevant Socials */}
-                        <Nav.Link href="#home">
+                        <Nav.Link href="/home">
                             Home
                         </Nav.Link>
 
-                        <Nav.Link href="#portfolio">
+                        <Nav.Link href="/portfolio">
                             Portfolio
                         </Nav.Link>
 
@@ -69,10 +69,10 @@ export const NavBar = () => {
                             href='https://www.linkedin.com/in/catherine-smith24601'
                             target='_blank'
                             className='links'
-                            data-toggle="tooltip"
+                            // data-toggle="tooltip"
                             title="LinkedIn Profile"
                             data-placement="bottom"
-                            rel='noreferrer noopener'>
+                            rel='noreferrer noopener'>Fix this LinkedIn icon
                             <span className='icon'>
                                 <i className='fa fa-3x fa-linkedin-square'></i>
                             </span>

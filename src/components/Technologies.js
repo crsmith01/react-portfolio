@@ -22,7 +22,7 @@ export const Technologies = () => {
             </Row>
             <Row>
                 <Col>
-                    <ul className='techList'>
+                    <ul className='techList' type='none'>
                         <li>JavaScript</li>
                         <li>React</li>
                         <li>HTML</li>
@@ -32,7 +32,7 @@ export const Technologies = () => {
                     </ul>
                 </Col>
                 <Col>
-                    <ul className='techList'>
+                    <ul className='techList' type='none'>
                         <li>GitHub, Git Pages, & Git Commands</li>
                         <li>Heroku & Digital Oceans</li>
                         <li>Bootstrap, Bulma, & Semantic UI</li>
@@ -58,7 +58,7 @@ export const Technologies = () => {
                     </ul>
                 </Col>
                 <Col>
-                    <ul className='techList'>
+                    <ul className='techList' type='none'>
                         <li>Library of Congress Classification</li>
                         <li>Dewey Decimal Classification</li>
                         <li>Superindendent of Docs</li>
@@ -73,7 +73,7 @@ export const Technologies = () => {
                     </ul>
                 </Col>
                 <Col>
-                    <ul className='techList'>
+                    <ul className='techList' type='none'>
                         <li>Google Suite</li>
                         <li>Microsoft Office Suite</li>
                         <li>Noteflight</li>
