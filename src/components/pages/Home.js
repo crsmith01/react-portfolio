@@ -18,6 +18,7 @@ const Home = () => {
                                 className='headshot'
                                 // src={catherineHeadshot}
                                 // src='../public/images/images-tinified/catherine-headshot-sunken-garden.png'
+                                src='https://avatars.githubusercontent.com/crsmith01'
                                 alt='Catherine Smith headshot'
                                 roundedCircle
                             />
