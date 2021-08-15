@@ -86,9 +86,10 @@ export const NavBar = () => {
                             // data-toggle="tooltip"
                             // title="LinkedIn Profile"
                             // data-placement="bottom"
-                            rel='noreferrer noopener'>Fix this LinkedIn icon
+                            rel='noreferrer noopener'>
                             <span className='icon'>
-                                <i className='fa fa-3x fa-linkedin-square'></i>
+                                {/* <i className='fa fa-3x fa-linkedin-square'></i> */}
+                                <i className='fab fa-linkedin'></i>
                             </span>
                         </Nav.Link>
                     </Nav>
