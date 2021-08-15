@@ -21,10 +21,24 @@ export const NavBar = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                {/* either eliminate .Brand or add CRS logo here instead */}
-                <Navbar.Brand href="/home">
-                    <Image src='/images/images-tinified/CRS-Logo.png' alt='CRS Logo'/>
-                </Navbar.Brand>
+                {/* <Navbar.Brand href="/home">
+                    <Image src='/images/images-tinified/CRS-Logo.png' alt='CRS Logo' />
+                </Navbar.Brand> */}
+
+                <Container>
+                    <Navbar.Brand href="/home">
+                        <img
+                            src="/images/images-tinified/CRS-Logo.png"
+                            width="30"
+                            height="30"
+                            className="d-inline-block align-top"
+                            alt="CRS logo"
+                        />
+                    </Navbar.Brand>
+                </Container>
+
+
+
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
@@ -70,8 +84,8 @@ export const NavBar = () => {
                             target='_blank'
                             className='links'
                             // data-toggle="tooltip"
-                            title="LinkedIn Profile"
-                            data-placement="bottom"
+                            // title="LinkedIn Profile"
+                            // data-placement="bottom"
                             rel='noreferrer noopener'>Fix this LinkedIn icon
                             <span className='icon'>
                                 <i className='fa fa-3x fa-linkedin-square'></i>

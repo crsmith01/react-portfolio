@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 
 
@@ -13,11 +15,11 @@ function Contact() {
 
     return (
         <>
-            <Button onClick={handleShow}>
+            <Nav.Link onClick={handleShow}>
                 Contact
                 {/* find a way to make sure this is the Contact button in the nav bar */}
                 {/* maybe with Nav.Link?? */}
-            </Button>
+            </Nav.Link>
 
             <Modal show={show} onHide={handleClose}>
 
@@ -26,7 +28,6 @@ function Contact() {
                 </Modal.Header>
 
                 <Modal.Body>
-                    {/* This is where the actual info goes */}
                     <p>
                         Email:
                         <a href='mailto:catsmith24601@gmail.com'> catsmith24601@gmail.com</a>
