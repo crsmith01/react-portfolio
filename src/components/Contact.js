@@ -17,8 +17,6 @@ function Contact() {
         <>
             <Nav.Link onClick={handleShow}>
                 Contact
-                {/* find a way to make sure this is the Contact button in the nav bar */}
-                {/* maybe with Nav.Link?? */}
             </Nav.Link>
 
             <Modal show={show} onHide={handleClose}>
@@ -35,6 +33,35 @@ function Contact() {
                         Phone:
                         <a href='tel:+18049297812'> (804) 929-7812</a>
                         <br />
+
+                        {/* Change these two to be consistent with email and phone number */}
+                        <Nav.Link
+                            href='https://github.com/crsmith01'
+                            target='_blank'
+                            className='links'
+                            // react tooltip - need to change to data-tip from data-placement
+                            // data-toggle="tooltip"
+                            title="GitHub Profile"
+                            data-placement="bottom"
+                            rel='noreferrer noopener'>
+                            <span className='icon'>GitHub
+                                {/* <i className='fab fa-github'></i> */}
+                            </span>
+                        </Nav.Link>
+
+                        <Nav.Link
+                            href='https://www.linkedin.com/in/catherine-smith24601'
+                            target='_blank'
+                            className='links'
+                            // data-toggle="tooltip"
+                            // title="LinkedIn Profile"
+                            // data-placement="bottom"
+                            rel='noreferrer noopener'>
+                            <span className='icon'>LinkedIn
+                                {/* <i className='fa fa-3x fa-linkedin-square'></i> */}
+                                {/* <i className='fab fa-linkedin'></i> */}
+                            </span>
+                        </Nav.Link>
                     </p>
                     <p>
                         Or leave me a message!
