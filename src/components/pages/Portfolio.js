@@ -8,7 +8,7 @@ import cadmium from "../../images/images-tinified/cadmium-screenshot.png";
 import passwordGenerator from "../../images/images-tinified/password-screenshot.png";
 import workDayScheduler from "../../images/images-tinified/work-day-scheduler-screenshot.png";
 import employeeTracker from "../../images/images-tinified/employee-tracker-welcome.png";
-import eCommerceBackEnd from "../../images/images-tinified/e-commerce-back-end.gif";
+import eCommerceBackEnd from "../../images/e-commerce-back-end.gif";
 import fitnessTracker from "../../images/images-tinified/fitness-tracker-stats.png";
 import progressiveBudget from "../../images/images-tinified/pwa-screenshot.png";
 
@@ -103,7 +103,7 @@ export default function Portfolio() {
                 </Card>
 
                 <Card style={{ width: '18rem' }}>
-                    {/* <Card.Img variant="top" src={progressiveBudget} alt="Screenshot of progressive budget application functionality" /> */}
+                    <Card.Img variant="top" src={progressiveBudget} alt="Screenshot of progressive budget application functionality" />
                     <Card.Body>
                         <Card.Title>Progressive Budget PWA</Card.Title>
                         <Card.Text>
