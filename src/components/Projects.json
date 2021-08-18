@@ -4,7 +4,7 @@
         "name": "Cadmium-RVA",
         "description": "React, crowd-sourced app for finding art events in the Richmond, VA area.",
         "img": "./images/images-tinified/cadmium-rva.png",
-        "alt": "Cadmium application screenshot or events page",
+        "alt": "Cadmium application screenshot of events page",
         "repo": "https://github.com/sethvance26/Cadmium-Seth",
         "deployedApp": "https://cadmiumrva.herokuapp.com/"
     },
