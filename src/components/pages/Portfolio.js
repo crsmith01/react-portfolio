@@ -3,14 +3,14 @@ import React from 'react';
 import { Container, Card, Row, Button } from "react-bootstrap";
 // import Projects from "../Projects";
 
-// import cadmiumRVA from "images/images-tinified/cadmium-rva.png";
-// import cadmium from "./images/images-tinified/cadmium-screenshot.png";
-// import passwordGenerator from "./images/images-tinified/password-screenshot.png";
-// import workDayScheduler from "./images/images-tinified/work-day-scheduler-screenshot.png";
-// import employeeTracker from "./images/images-tinified/employee-tracker-welcome.png";
-// import eCommerceBackEnd from "./images/images-tinified/e-commerce-back-end.gif";
-// import fitnessTracker from "./images/images-tinified/fitness-tracker-stats.png";
-// import progressiveBudget from "./images/images-tinified/pwa-screenshot.png";
+import cadmiumRVA from "../../images/images-tinified/cadmium-rva.png";
+import cadmium from "../../images/images-tinified/cadmium-screenshot.png";
+import passwordGenerator from "../../images/images-tinified/password-screenshot.png";
+import workDayScheduler from "../../images/images-tinified/work-day-scheduler-screenshot.png";
+import employeeTracker from "../../images/images-tinified/employee-tracker-welcome.png";
+import eCommerceBackEnd from "../../images/images-tinified/e-commerce-back-end.gif";
+import fitnessTracker from "../../images/images-tinified/fitness-tracker-stats.png";
+import progressiveBudget from "../../images/images-tinified/pwa-screenshot.png";
 
 
 
@@ -19,7 +19,7 @@ export default function Portfolio() {
         <Container>
             <Row>
                 <Card style={{ width: '18rem' }}>
-                    {/* <Card.Img variant="top" src={cadmiumRVA} alt="Cadmium application screenshot of events page" /> */}
+                    <Card.Img variant="top" src={cadmiumRVA} alt="Cadmium application screenshot of events page" />
                     <Card.Body>
                         <Card.Title>Cadmium-RVA</Card.Title>
                         <Card.Text>
@@ -32,7 +32,7 @@ export default function Portfolio() {
                 </Card>
 
                 <Card style={{ width: '18rem' }}>
-                    {/* <Card.Img variant="top" src={cadmium} alt="Cadmium application screenshot" /> */}
+                    <Card.Img variant="top" src={cadmium} alt="Cadmium application screenshot" />
                     <Card.Body>
                         <Card.Title>Cadmium</Card.Title>
                         <Card.Text>
@@ -45,7 +45,7 @@ export default function Portfolio() {
                 </Card>
 
                 <Card style={{ width: '18rem' }}>
-                    {/* <Card.Img variant="top" src={passwordGenerator} alt="Screenshot of password generator application" /> */}
+                    <Card.Img variant="top" src={passwordGenerator} alt="Screenshot of password generator application" />
                     <Card.Body>
                         <Card.Title>Password Generator</Card.Title>
                         <Card.Text>
@@ -57,7 +57,7 @@ export default function Portfolio() {
                 </Card>
 
                 <Card style={{ width: '18rem' }}>
-                    {/* <Card.Img variant="top" src={workDayScheduler} alt="Screenshot of deployed work day scheduler application" /> */}
+                    <Card.Img variant="top" src={workDayScheduler} alt="Screenshot of deployed work day scheduler application" />
                     <Card.Body>
                         <Card.Title>Work Day Scheduler</Card.Title>
                         <Card.Text>
@@ -69,7 +69,7 @@ export default function Portfolio() {
                 </Card>
 
                 <Card style={{ width: '18rem' }}>
-                    {/* <Card.Img variant="top" src={employeeTracker} alt="Screenshot of welcome page of employee tracker application" /> */}
+                    <Card.Img variant="top" src={employeeTracker} alt="Screenshot of welcome page of employee tracker application" />
                     <Card.Body>
                         <Card.Title>Employee Tracker</Card.Title>
                         <Card.Text>
@@ -80,7 +80,7 @@ export default function Portfolio() {
                 </Card>
 
                 <Card style={{ width: '18rem' }}>
-                    {/* <Card.Img variant="top" src={eCommerceBackEnd} alt="Gif animation of back end of e-commerce application" /> */}
+                    <Card.Img variant="top" src={eCommerceBackEnd} alt="Gif animation of back end of e-commerce application" />
                     <Card.Body>
                         <Card.Title>E-Commerce Back End</Card.Title>
                         <Card.Text>
@@ -91,7 +91,7 @@ export default function Portfolio() {
                 </Card>
 
                 <Card style={{ width: '18rem' }}>
-                    {/* <Card.Img variant="top" src={fitnessTracker} alt="Screenshot of stats page of fitness tracker application" /> */}
+                    <Card.Img variant="top" src={fitnessTracker} alt="Screenshot of stats page of fitness tracker application" />
                     <Card.Body>
                         <Card.Title>Fitness Tracker</Card.Title>
                         <Card.Text>
