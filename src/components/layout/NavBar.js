@@ -21,24 +21,15 @@ export const NavBar = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                {/* <Navbar.Brand href="/home">
-                    <Image src='/images/images-tinified/CRS-Logo.png' alt='CRS Logo' />
-                </Navbar.Brand> */}
-
-                <Container>
-                    <Navbar.Brand href="/home">
-                        <img
-                            src="/images/images-tinified/CRS-Logo.png"
-                            width="30"
-                            height="30"
-                            className="d-inline-block align-top"
-                            alt="CRS logo"
-                        />
-                    </Navbar.Brand>
-                </Container>
-
-
-
+                <Navbar.Brand href="/home">
+                    <img
+                        src="/images/CRS-Logo.gif"
+                        width="100"
+                        height="100"
+                        className="d-inline-block align-top"
+                        alt="CRS logo"
+                    />
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
