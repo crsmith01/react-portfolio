@@ -1,8 +1,10 @@
 body {
-  background-image: url('images/potential-hero-tinified/music-visualisation.jpg');
-  /* background-repeat: no-repeat; */
-  /* background-attachment: fixed; */
+  background-image: url('images/potential-hero-tinified/polly-background.jpg');
+  background-color: bisque;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
+  background-size: cover;
 }
 
 
