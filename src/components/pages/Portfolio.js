@@ -20,7 +20,7 @@ const Portfolio = () => {
             <Container>
                 <Row>
                     <Card>
-                        <a href="https://cadmiumrva.herokuapp.com/">
+                        <a href="https://cadmiumrva.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
                             <Card.Img variant="top" src={cadmiumRVA} alt="Cadmium application screenshot of events page" />
                         </a>
                         <Card.Body>
@@ -28,14 +28,14 @@ const Portfolio = () => {
                             <Card.Text>
                                 React, crowd-sourced app for finding art events in the Richmond, VA area
                             </Card.Text>
-                            <Button variant="outline-primary" href="https://github.com/sethvance26/Cadmium-Seth">GitHub Repo</Button>
-                            <Button variant="outline-success" href="https://cadmiumrva.herokuapp.com/">Deployed App</Button>
+                            <Button variant="outline-primary" href="https://github.com/sethvance26/Cadmium-Seth" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
+                            <Button variant="outline-success" href="https://cadmiumrva.herokuapp.com/" target='_blank' rel='noreferrer noopener'>Deployed App</Button>
 
                         </Card.Body>
                     </Card>
 
                     <Card style={{ width: '20rem' }}>
-                        <a href="https://ancient-lowlands-14789.herokuapp.com/login">
+                        <a href="https://ancient-lowlands-14789.herokuapp.com/login" target='_blank' rel='noreferrer noopener'>
                             <Card.Img variant="top" src={cadmium} alt="Cadmium application screenshot" />
                         </a>
                         <Card.Body>
@@ -43,14 +43,14 @@ const Portfolio = () => {
                             <Card.Text>
                                 Crowd-sourced app for finding art events in the Richmond, VA area
                             </Card.Text>
-                            <Button variant="outline-primary" href="https://github.com/johnsoncm/cadmium">GitHub Repo</Button>
-                            <Button variant="outline-success" href="https://ancient-lowlands-14789.herokuapp.com/login">Deployed App</Button>
+                            <Button variant="outline-primary" href="https://github.com/johnsoncm/cadmium" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
+                            <Button variant="outline-success" href="https://ancient-lowlands-14789.herokuapp.com/login" target='_blank' rel='noreferrer noopener'>Deployed App</Button>
 
                         </Card.Body>
                     </Card>
 
                     <Card style={{ width: '20rem' }}>
-                        <a href="https://crsmith01.github.io/homework-3-password-generator/">
+                        <a href="https://crsmith01.github.io/homework-3-password-generator/" target='_blank' rel='noreferrer noopener'>
                             <Card.Img variant="top" src={passwordGenerator} alt="Screenshot of password generator application" />
                         </a>
                         <Card.Body>
@@ -58,13 +58,13 @@ const Portfolio = () => {
                             <Card.Text>
                                 App to create a password with alphanumeric and special characters
                             </Card.Text>
-                            <Button variant="outline-primary" href="https://github.com/crsmith01/homework-3-password-generator">GitHub Repo</Button>
-                            <Button variant="outline-success" href="https://crsmith01.github.io/homework-3-password-generator/">Deployed App</Button>
+                            <Button variant="outline-primary" href="https://github.com/crsmith01/homework-3-password-generator" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
+                            <Button variant="outline-success" href="https://crsmith01.github.io/homework-3-password-generator/" target='_blank' rel='noreferrer noopener'>Deployed App</Button>
                         </Card.Body>
                     </Card>
 
                     <Card style={{ width: '20rem' }}>
-                        <a href="https://crsmith01.github.io/homework5-day-planner/">
+                        <a href="https://crsmith01.github.io/homework5-day-planner/" target='_blank' rel='noreferrer noopener'>
                             <Card.Img variant="top" src={workDayScheduler} alt="Screenshot of deployed work day scheduler application" />
                         </a>
                         <Card.Body>
@@ -72,13 +72,13 @@ const Portfolio = () => {
                             <Card.Text>
                                 Work day scheduling app with color-coded time slots and ability to save notes.
                             </Card.Text>
-                            <Button variant="outline-primary" href="https://github.com/crsmith01/homework5-day-planner">GitHub Repo</Button>
-                            <Button variant="outline-success" href="https://crsmith01.github.io/homework5-day-planner/">Deployed App</Button>
+                            <Button variant="outline-primary" href="https://github.com/crsmith01/homework5-day-planner" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
+                            <Button variant="outline-success" href="https://crsmith01.github.io/homework5-day-planner/" target='_blank' rel='noreferrer noopener'>Deployed App</Button>
                         </Card.Body>
                     </Card>
 
                     <Card style={{ width: '20rem' }}>
-                        <a href="https://protected-tundra-70136.herokuapp.com/">
+                        <a href="https://protected-tundra-70136.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
                             <Card.Img variant="top" src={fitnessTracker} alt="Screenshot of stats page of fitness tracker application" />
                         </a>
                         <Card.Body>
@@ -86,13 +86,13 @@ const Portfolio = () => {
                             <Card.Text>
                                 Back end for an e-commerce site"
                             </Card.Text>
-                            <Button variant="outline-primary" href="https://github.com/crsmith01/fitness-tracker">GitHub Repo</Button>
-                            <Button variant="outline-success" href="https://protected-tundra-70136.herokuapp.com/">Deployed App</Button>
+                            <Button variant="outline-primary" href="https://github.com/crsmith01/fitness-tracker" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
+                            <Button variant="outline-success" href="https://protected-tundra-70136.herokuapp.com/" target='_blank' rel='noreferrer noopener'>Deployed App</Button>
                         </Card.Body>
                     </Card>
 
                     <Card style={{ width: '20rem' }}>
-                        <a href="https://protected-tundra-70136.herokuapp.com/">
+                        <a href="https://protected-tundra-70136.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
                             <Card.Img variant="top" src={progressiveBudget} alt="Screenshot of progressive budget application functionality" />
                         </a>
                         <Card.Body>
@@ -100,13 +100,13 @@ const Portfolio = () => {
                             <Card.Text>
                                 Application to allow users to view, create, and track daily workouts.
                             </Card.Text>
-                            <Button variant="outline-primary" href="https://github.com/crsmith01/fitness-tracker">GitHub Repo</Button>
-                            <Button variant="outline-success" href="https://protected-tundra-70136.herokuapp.com/">Deployed App</Button>
+                            <Button variant="outline-primary" href="https://github.com/crsmith01/fitness-tracker" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
+                            <Button variant="outline-success" href="https://protected-tundra-70136.herokuapp.com/" target='_blank' rel='noreferrer noopener'>Deployed App</Button>
                         </Card.Body>
                     </Card>
 
                     <Card style={{ width: '20rem' }}>
-                        <a href="https://github.com/crsmith01/hw11-employee-tracker">
+                        <a href="https://github.com/crsmith01/hw11-employee-tracker" target='_blank' rel='noreferrer noopener'>
                             <Card.Img variant="top" src={employeeTracker} alt="Screenshot of welcome page of employee tracker application" />
                         </a>
                         <Card.Body>
@@ -114,12 +114,12 @@ const Portfolio = () => {
                             <Card.Text>
                                 Content Management System to view and manage departments, roles, and employees of a company.
                             </Card.Text>
-                            <Button variant="outline-primary" href="https://github.com/crsmith01/hw11-employee-tracker">GitHub Repo</Button>
+                            <Button variant="outline-primary" href="https://github.com/crsmith01/hw11-employee-tracker" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
                         </Card.Body>
                     </Card>
 
                     <Card style={{ width: '20rem' }}>
-                        <a href="https://github.com/crsmith01/hw12-e-commerce-back-end">
+                        <a href="https://github.com/crsmith01/hw12-e-commerce-back-end" target='_blank' rel='noreferrer noopener'>
                             <Card.Img variant="top" src={eCommerceBackEnd} alt="Gif animation of back end of e-commerce application" />
                         </a>
                         <Card.Body>
@@ -127,7 +127,7 @@ const Portfolio = () => {
                             <Card.Text>
                                 Back end for an e-commerce site
                             </Card.Text>
-                            <Button variant="outline-primary" href="https://github.com/crsmith01/hw12-e-commerce-back-end">GitHub Repo</Button>
+                            <Button variant="outline-primary" href="https://github.com/crsmith01/hw12-e-commerce-back-end" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
                         </Card.Body>
                     </Card>
                 </Row>
