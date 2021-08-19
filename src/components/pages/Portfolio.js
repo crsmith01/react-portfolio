@@ -1,7 +1,6 @@
-// import `useState` with React so that we can utilize the hook
 import React from 'react';
 import { Container, Card, Row, Button } from "react-bootstrap";
-// import Projects from "../Projects";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import cadmiumRVA from "../../images/images-tinified/cadmium-rva.png";
 import cadmium from "../../images/images-tinified/cadmium-screenshot.png";
@@ -14,6 +13,7 @@ import progressiveBudget from "../../images/images-tinified/pwa-screenshot.png";
 
 
 
+
 const Portfolio = () => {
     return (
         <div>
@@ -23,20 +23,26 @@ const Portfolio = () => {
             </p>
             <Container>
                 <Row>
-                    <Card>
-                        <a href="https://cadmiumrva.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
-                            <Card.Img variant="top" src={cadmiumRVA} alt="Cadmium application screenshot of events page" />
-                        </a>
-                        <Card.Body>
-                            <Card.Title>Cadmium-RVA</Card.Title>
-                            <Card.Text>
-                                React, crowd-sourced app for finding art events in the Richmond, VA area
-                            </Card.Text>
-                            <Button variant="outline-primary" href="https://github.com/sethvance26/Cadmium-Seth" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
-                            <Button variant="outline-success" href="https://cadmiumrva.herokuapp.com/" target='_blank' rel='noreferrer noopener'>Deployed App</Button>
+                    <ScrollAnimation
+                        animateIn='pulse'
+                        offset={500}
+                        initiallyVisible={false}
+                    >
+                        <Card>
+                            <a href="https://cadmiumrva.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
+                                <Card.Img variant="top" src={cadmiumRVA} alt="Cadmium application screenshot of events page" />
+                            </a>
+                            <Card.Body>
+                                <Card.Title>Cadmium-RVA</Card.Title>
+                                <Card.Text>
+                                    React, crowd-sourced app for finding art events in the Richmond, VA area
+                                </Card.Text>
+                                <Button variant="outline-primary" href="https://github.com/sethvance26/Cadmium-Seth" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
+                                <Button variant="outline-success" href="https://cadmiumrva.herokuapp.com/" target='_blank' rel='noreferrer noopener'>Deployed App</Button>
 
-                        </Card.Body>
-                    </Card>
+                            </Card.Body>
+                        </Card>
+                    </ScrollAnimation>
 
                     <Card style={{ width: '20rem' }}>
                         <a href="https://ancient-lowlands-14789.herokuapp.com/login" target='_blank' rel='noreferrer noopener'>
