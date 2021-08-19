@@ -21,7 +21,7 @@ const Portfolio = () => {
                 <Row>
                     <Card>
                         <a href="https://cadmiumrva.herokuapp.com/">
-                            <Card.Img variant="top" src={cadmiumRVA} alt="Cadmium application screenshot of events page"/>
+                            <Card.Img variant="top" src={cadmiumRVA} alt="Cadmium application screenshot of events page" />
                         </a>
                         <Card.Body>
                             <Card.Title>Cadmium-RVA</Card.Title>
@@ -36,7 +36,7 @@ const Portfolio = () => {
 
                     <Card style={{ width: '20rem' }}>
                         <a href="https://ancient-lowlands-14789.herokuapp.com/login">
-                        <Card.Img variant="top" src={cadmium} alt="Cadmium application screenshot" />
+                            <Card.Img variant="top" src={cadmium} alt="Cadmium application screenshot" />
                         </a>
                         <Card.Body>
                             <Card.Title>Cadmium</Card.Title>
@@ -50,7 +50,9 @@ const Portfolio = () => {
                     </Card>
 
                     <Card style={{ width: '20rem' }}>
-                        <Card.Img variant="top" src={passwordGenerator} alt="Screenshot of password generator application" />
+                        <a href="https://crsmith01.github.io/homework-3-password-generator/">
+                            <Card.Img variant="top" src={passwordGenerator} alt="Screenshot of password generator application" />
+                        </a>
                         <Card.Body>
                             <Card.Title>Password Generator</Card.Title>
                             <Card.Text>
@@ -62,7 +64,9 @@ const Portfolio = () => {
                     </Card>
 
                     <Card style={{ width: '20rem' }}>
-                        <Card.Img variant="top" src={workDayScheduler} alt="Screenshot of deployed work day scheduler application" />
+                        <a href="https://crsmith01.github.io/homework5-day-planner/">
+                            <Card.Img variant="top" src={workDayScheduler} alt="Screenshot of deployed work day scheduler application" />
+                        </a>
                         <Card.Body>
                             <Card.Title>Work Day Scheduler</Card.Title>
                             <Card.Text>
@@ -74,7 +78,9 @@ const Portfolio = () => {
                     </Card>
 
                     <Card style={{ width: '20rem' }}>
-                        <Card.Img variant="top" src={fitnessTracker} alt="Screenshot of stats page of fitness tracker application" />
+                        <a href="https://protected-tundra-70136.herokuapp.com/">
+                            <Card.Img variant="top" src={fitnessTracker} alt="Screenshot of stats page of fitness tracker application" />
+                        </a>
                         <Card.Body>
                             <Card.Title>Fitness Tracker</Card.Title>
                             <Card.Text>
@@ -86,7 +92,9 @@ const Portfolio = () => {
                     </Card>
 
                     <Card style={{ width: '20rem' }}>
-                        <Card.Img variant="top" src={progressiveBudget} alt="Screenshot of progressive budget application functionality" />
+                        <a href="https://protected-tundra-70136.herokuapp.com/">
+                            <Card.Img variant="top" src={progressiveBudget} alt="Screenshot of progressive budget application functionality" />
+                        </a>
                         <Card.Body>
                             <Card.Title>Progressive Budget PWA</Card.Title>
                             <Card.Text>
@@ -98,7 +106,9 @@ const Portfolio = () => {
                     </Card>
 
                     <Card style={{ width: '20rem' }}>
-                        <Card.Img variant="top" src={employeeTracker} alt="Screenshot of welcome page of employee tracker application" />
+                        <a href="https://github.com/crsmith01/hw11-employee-tracker">
+                            <Card.Img variant="top" src={employeeTracker} alt="Screenshot of welcome page of employee tracker application" />
+                        </a>
                         <Card.Body>
                             <Card.Title>Employee Tracker</Card.Title>
                             <Card.Text>
@@ -109,7 +119,9 @@ const Portfolio = () => {
                     </Card>
 
                     <Card style={{ width: '20rem' }}>
-                        <Card.Img variant="top" src={eCommerceBackEnd} alt="Gif animation of back end of e-commerce application" />
+                        <a href="https://github.com/crsmith01/hw12-e-commerce-back-end">
+                            <Card.Img variant="top" src={eCommerceBackEnd} alt="Gif animation of back end of e-commerce application" />
+                        </a>
                         <Card.Body>
                             <Card.Title>E-Commerce Back End</Card.Title>
                             <Card.Text>
