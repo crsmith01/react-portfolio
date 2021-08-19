@@ -1,4 +1,5 @@
 import React from 'react';
+import Typical from 'react-typical';
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -11,9 +12,14 @@ const Home = () => {
         <div>
             <Container>
                 <h1>Hello, I'm Catherine!</h1>
-                <p>
+                {/* <p>
                     Full Stack Web Developer. Librarian. Soprano. Shakespeare Nerd.
-                </p>
+                </p> */}
+                <Typical
+                    steps={['Full Stack Web Developer', 1500, 'Librarian', 1500, 'Soprano', 1500, 'Shakespeare Nerd', 1500]}
+                    loop={Infinity}
+                    wrapper="h3"
+                />
                 <Row>
                     <div id='aboutMe'>
                         <section id='aboutMeContainer'>

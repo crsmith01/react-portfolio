@@ -17,6 +17,10 @@ import progressiveBudget from "../../images/images-tinified/pwa-screenshot.png";
 const Portfolio = () => {
     return (
         <div>
+            <h1>Portfolio</h1>
+            <p>
+                Take a look at these recent projects!
+            </p>
             <Container>
                 <Row>
                     <Card>
