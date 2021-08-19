@@ -2,7 +2,7 @@ import React from 'react';
 // import Contact from './components/Contact';
 
 import Contact from '../Contact';
-import Image from 'react-bootstrap/Image';
+// import Image from 'react-bootstrap/Image';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // import { LinkContainer } from 'react-router-bootstrap';
