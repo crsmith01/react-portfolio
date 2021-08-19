@@ -1,8 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
+  BrowserRouter as Router, Switch, Route,
   // Link
 } from "react-router-dom";
 import './App.css';
@@ -15,7 +13,7 @@ import Footer from './components/layout/Footer';
 
 function App() {
   return (
-    <Router>
+    <Router> 
       <div className="App">
         <NavBar /> 
         {/* <Jumbotron> */}

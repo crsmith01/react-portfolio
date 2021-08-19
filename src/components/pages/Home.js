@@ -1,24 +1,27 @@
 import React from 'react';
 import Typical from 'react-typical';
-import Image from 'react-bootstrap/Image';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
+import ScrollAnimation from 'react-animate-on-scroll';
+import Particles from 'react-particles-js';
+
+import { Container, Image, Row } from "react-bootstrap";
+
+// import Image from 'react-bootstrap/Image';
+// import Container from 'react-bootstrap/Container';
+// import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
 import Technologies from '../Technologies';
-import ScrollAnimation from 'react-animate-on-scroll';
+
 
 
 
 const Home = () => {
     return (
         <div>
+
             <Container>
                 <h1>Hello, I'm Catherine!</h1>
-                {/* <p>
-                    Full Stack Web Developer. Librarian. Soprano. Shakespeare Nerd.
-                </p> */}
                 <Typical
-                    steps={['Full Stack Web Developer', 1500, 'Librarian', 1500, 'Soprano', 1500, 'Shakespeare Nerd', 1500]}
+                    steps={['Full Stack Web Developer.', 1500, 'Librarian.', 1500, 'Soprano.', 1500, 'Shakespeare Nerd.', 1500]}
                     loop={Infinity}
                     wrapper="h3"
                 />
@@ -54,7 +57,7 @@ const Home = () => {
                                         University of Strathclyde. I decided to pursue web development because it's a fast-paced,
                                         challenging, creative career path with constant opportunities to grow as a person and professional.
                                     </p>
-                                <br/>
+                                    <br />
                                     <p>
                                         While volunteering time as a Library Ambassador at the Earl Gregg Swem Library, I worked with
                                         the media team to create virtual tours and how-to videos for utilizing library services, and I
@@ -68,6 +71,7 @@ const Home = () => {
                             </div>
                         </section>
                     </div>
+
                 </Row>
             </Container>
             <Container>
@@ -80,6 +84,35 @@ const Home = () => {
                     <Technologies />
                 </ScrollAnimation>
             </Container>
+            <Particles
+                className="particles-canvas"
+                params={{
+                    particles: {
+                        number: {
+                            value: 50,
+                            density: {
+                                enable: true,
+                                value_area: 900
+                            }
+                        },
+                        interactivity: {
+                            "events": {
+                                "onhover": {
+                                    "enable": false,
+                                    "mode": "repulse"
+                                }
+                            }
+                        },
+                        shape: {
+                            type: "circle",
+                            stroke: {
+                                width: 1,
+                                color: '#ccc'
+                            }
+                        }
+                    }
+                }}
+            />
         </div>
     )
 }
