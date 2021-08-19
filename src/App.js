@@ -19,9 +19,9 @@ function App() {
       <div className="App">
         <NavBar /> 
         {/* <Jumbotron> */}
-          <h1>Hello, I'm Catherine!</h1>
+          <h1>Portfolio</h1>
           <p>
-            Full Stack Web Developer. Librarian. Soprano. Shakespeare Nerd.
+            Take a look at these recent projects!
           </p>
           <Switch>
             {/* <Switch> Renders the first child <Route> or <Redirect> that matches the location. <Switch> is unique in that it renders a route exclusively. In contrast, every <Route> that matches the location renders inclusively. */}

@@ -10,6 +10,10 @@ const Home = () => {
     return (
         <div>
             <Container>
+                <h1>Hello, I'm Catherine!</h1>
+                <p>
+                    Full Stack Web Developer. Librarian. Soprano. Shakespeare Nerd.
+                </p>
                 <Row>
                     <div id='aboutMe'>
                         <section id='aboutMeContainer'>

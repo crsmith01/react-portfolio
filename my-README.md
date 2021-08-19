@@ -21,10 +21,7 @@ My task this week was to create a portfolio using my new React skills, demonstra
 3. Node.js
 4. Express.js
 5. HTML and CSS
-6. Compression
-7. IndexedDB
-8. Service worker
-9. Manifest
+
 
 
 # User Story
