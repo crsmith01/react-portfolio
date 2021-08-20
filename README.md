@@ -67,7 +67,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Mock-Up
 Click[here](https://github.com/crsmith01/react-portfolio) to view the repo on GitHub.
 
-Click [here](__________________) to view the deployed application on GitHub Pages.
+Click [here](https://crsmith01.github.io/react-portfolio/) to view the deployed application on GitHub Pages.
 
 
 ## Contact
