@@ -2,7 +2,7 @@
 
 ## My Task
 
-My task this week was to create a portfolio using my new React skills, demonstrating that I understand how to use the latest technologies in the industry, and deploy to GitHub Pages.
+My task this week was to create a portfolio using my new React skills, demonstrating that I understand how to use the latest technologies in the industry, and deploy it.
 
 ## Table of Contents
 
