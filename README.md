@@ -17,15 +17,14 @@ My task this week was to create a portfolio using my new React skills, demonstra
 ## Technologies Used
 
 1. [React JS](https://reactjs.org/)
-2. JavaScript
-3. [Node.js](https://nodejs.org/en/)
-4. [Express.js](https://expressjs.com/)
-5. HTML and CSS
-6. [React-Bootstrap](https://react-bootstrap.github.io/)
-7. [React Animate on Scroll](https://www.npmjs.com/package/react-animate-on-scroll)
-8. [React Particles](https://www.npmjs.com/package/react-particles-js)
-9. [Favicon](https://favicon.io/)
-
+2. [Node.js](https://nodejs.org/en/)
+3. [Express.js](https://expressjs.com/)
+4. [React-Bootstrap](https://react-bootstrap.github.io/)
+5. [React Animate on Scroll](https://www.npmjs.com/package/react-animate-on-scroll)
+6. [React Particles](https://www.npmjs.com/package/react-particles-js)
+7. [Favicon](https://favicon.io/)
+8. JavaScript
+9. HTML and CSS
 
 
 # User Story
