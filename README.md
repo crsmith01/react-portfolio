@@ -65,19 +65,12 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 ## Mock-Up
-##### UPDATE UPDATE UPDATE
 The following link leads to the GitHub repository for this app:
 [GitHub Link](https://github.com/crsmith01/react-portfolio)
 
 The following link leads to the deployed application on GitHub Pages:
 [GitHub Pages Link](__________________)
 
-
-
-## Usage
-1. Install dependencies: ```npm install```
-
-2. Start the server with ```npm start```
 
 ## Contact
 If you have any questions about the repo, contact me at [crsmith01](https://github.com/crsmith01).
