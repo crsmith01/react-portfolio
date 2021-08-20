@@ -65,11 +65,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 ## Mock-Up
-The following link leads to the GitHub repository for this app:
-[GitHub Link](https://github.com/crsmith01/react-portfolio)
+Click[here](https://github.com/crsmith01/react-portfolio) to view the repo on GitHub.
 
-The following link leads to the deployed application on GitHub Pages:
-[GitHub Pages Link](__________________)
+Click [here](__________________) to view the deployed application on GitHub Pages.
 
 
 ## Contact
