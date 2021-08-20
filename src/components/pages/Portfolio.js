@@ -11,7 +11,10 @@ import eCommerceBackEnd from "../../images/e-commerce-back-end.gif";
 import fitnessTracker from "../../images/images-tinified/fitness-tracker-stats.png";
 import progressiveBudget from "../../images/images-tinified/pwa-screenshot.png";
 
-
+const cardStyles = {
+    // border='',
+    padding:'15px'
+};
 
 
 const Portfolio = () => {
@@ -28,7 +31,7 @@ const Portfolio = () => {
                         offset={500}
                         initiallyVisible={false}
                     >
-                        <Card>
+                        <Card style={cardStyles}>
                             <a href="https://cadmiumrva.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
                                 <Card.Img variant="top" src={cadmiumRVA} alt="Cadmium application screenshot of events page" />
                             </a>

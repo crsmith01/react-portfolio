@@ -1,17 +1,3 @@
-body {
-  background-image: url('images/potential-hero-tinified/polly-background.jpg');
-  background-color: bisque;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-
-
-
-
-
-
 .App {
   text-align: center;
 }
@@ -64,11 +50,14 @@ body {
   scroll-behavior: smooth;
 }
 
+
 body {
-  /* background-image: url('../public/images/potential-hero-tinified/the-ny-public-library-1560401.jpg'); */
+  background-image: url('images/potential-hero-tinified/polly-background.jpg');
+  background-color: bisque;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
 }
 
 
