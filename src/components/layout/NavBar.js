@@ -15,15 +15,13 @@ import Navbar from 'react-bootstrap/Navbar';
 
 import Container from 'react-bootstrap/Container';
 
-
-
 export const NavBar = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
                 <Navbar.Brand href="/home">
                     <img
-                        src="/images/CRS-Logo.gif"
+                        src="./images/CRS-Logo.gif"
                         width="100"
                         height="100"
                         className="d-inline-block align-top"

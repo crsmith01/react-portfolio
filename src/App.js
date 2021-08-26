@@ -13,7 +13,7 @@ import Footer from './components/layout/Footer';
 
 function App() {
   return (
-    <Router> 
+    <Router basename='/'> 
       <div className="App">
         <NavBar /> 
         {/* <Jumbotron> */}
