@@ -32,11 +32,11 @@ export const NavBar = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         {/* Links for Home, Portfolio, Contact, Resume, and Relevant Socials */}
-                        <Nav.Link href="/home">
+                        <Nav.Link href="/react-router/#/home">
                             Home
                         </Nav.Link>
 
-                        <Nav.Link href="/portfolio">
+                        <Nav.Link href="/react-router/#/portfolio">
                             Portfolio
                         </Nav.Link>
 

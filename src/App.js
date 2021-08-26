@@ -19,8 +19,8 @@ function App() {
         {/* <Jumbotron> */}
           <Switch>
             {/* <Switch> Renders the first child <Route> or <Redirect> that matches the location. <Switch> is unique in that it renders a route exclusively. In contrast, every <Route> that matches the location renders inclusively. */}
-            <Route exact path='/react-portfolio/#/' component={Home} />
-            <Route exact path='/react-portfolio/#/portfolio' component={Portfolio} />
+            <Route exact path='/' component={Home} />
+            <Route exact path='/portfolio' component={Portfolio} />
             {/* All other paths will lead home */}
             <Route path='/*' component={Home} />
           </Switch>
