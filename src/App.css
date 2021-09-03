@@ -67,8 +67,52 @@ body {
   display: flex;
   align-items: center;
   margin: auto; 
+  display: flex;
+  flex-wrap: wrap;
 }
 
+/* .row-container {
+  align-items: center;
+  justify-content: center;
+} */
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 10px;
+    padding: 15px;
+    flex: 1 0 0;
+
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.about {
+  font-size: larger;
+  color:white;
+}
+
+.aboutMe {
+  color:thistle
+}
+
+
+.techCategories {
+  color:thistle
+}
+
+.techList {
+  color: white;
+}
+
+.headshot {
+  padding: 50px;
+}
 /* Tooltip */
 .tooltip {
   background-color: lightblue;

@@ -48,9 +48,9 @@ const Home = () => {
                                     offset={500}
                                     initiallyVisible={false}
                                 >
-                                    <h1><u> About Me </u></h1>
+                                    <h1 className="aboutMe"><u> About Me </u></h1>
                                     <br></br>
-                                    <p>
+                                    <p className="about">
                                         My name is Catherine, and I am an emerging full-stack Javascript web developer currently completing the
                                         University of Richmond's Coding Bootcamp. After earning my BA in Music and Shakespeare Studies
                                         at the College of William and Mary, I ventured to Glasgow to acquire my MSc in Information and Library Studies at the
@@ -58,7 +58,7 @@ const Home = () => {
                                         challenging, creative career path with constant opportunities to grow as a person and professional.
                                     </p>
                                     <br />
-                                    <p>
+                                    <p className="about">
                                         While volunteering time as a Library Ambassador at the Earl Gregg Swem Library, I worked with
                                         the media team to create virtual tours and how-to videos for utilizing library services, and I
                                         contacted professors and students to act as a reference point if they had any questions about how to
@@ -81,6 +81,8 @@ const Home = () => {
                     offset={500}
                     initiallyVisible={false}
                 >
+                    <br />
+                    <br />
                     <Technologies />
                 </ScrollAnimation>
             </Container>
