@@ -97,8 +97,9 @@ body {
   color:white;
 }
 
-.aboutMe {
-  color:thistle
+.aboutMeHeader {
+  color:thistle;
+  font-size: 45px;
 }
 
 
@@ -113,6 +114,12 @@ body {
 .headshot {
   padding: 50px;
 }
+
+.hello {
+  color:white
+}
+
+
 /* Tooltip */
 .tooltip {
   background-color: lightblue;

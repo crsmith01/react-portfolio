@@ -19,12 +19,14 @@ const Home = () => {
         <div>
 
             <Container>
-                <h1>Hello, I'm Catherine!</h1>
-                <Typical
-                    steps={['Full Stack Web Developer.', 1500, 'Librarian.', 1500, 'Soprano.', 1500, 'Shakespeare Nerd.', 1500]}
-                    loop={Infinity}
-                    wrapper="h3"
-                />
+                <section className="hello">
+                    <h1 className="hello">Hello, I'm Catherine!</h1>
+                    <Typical
+                        steps={['Full Stack Web Developer.', 1500, 'Librarian.', 1500, 'Soprano.', 1500, 'Shakespeare Nerd.', 1500]}
+                        loop={Infinity}
+                        wrapper="h3"
+                    />
+                </section>
                 <Row>
                     <div id='aboutMe'>
                         <section id='aboutMeContainer'>
@@ -48,7 +50,7 @@ const Home = () => {
                                     offset={500}
                                     initiallyVisible={false}
                                 >
-                                    <h1 className="aboutMe"><u> About Me </u></h1>
+                                    <h1 className="aboutMeHeader">About Me</h1>
                                     <br></br>
                                     <p className="about">
                                         My name is Catherine, and I am an emerging full-stack Javascript web developer currently completing the
