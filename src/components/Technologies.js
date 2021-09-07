@@ -20,13 +20,13 @@ export const Technologies = () => {
                 </Col>
                 <Col>
                     <h2>Programming Tools</h2>
-                    <ul className='techList' type='circle'>
+                    <ul className='techList' type='none'>
                         <li>GitHub & Git</li>
                         <li>Heroku & Netlify</li>
                         <li>Bootstrap & Semantic UI</li>
                         <li>Insomnia & Postman</li>
                         <li>MySQL & Sequelize</li>
-                        <li>MongoDB & Mongoose & Robo 3T</li>
+                        <li>MongoDB, Mongoose, & Robo 3T</li>
                         <li>jQuery</li>
                         <li>RESTful APIs</li>
                         <li>MERN</li>
@@ -34,12 +34,10 @@ export const Technologies = () => {
                         <li>Node.js</li>
                         <li>Express.js</li>
                         <li>Handlebars</li>
-                        <li>Moment</li>
+                        <li>Moment.js</li>
                         <li>Font Awesome & Google Fonts</li>
                         <li>Sweetalerts</li>
                         <li>Progressive Web Apps (PWAs)</li>
-                        <li>TypeDefs & Resolvers</li>
-                        <li>Queries & Mutations</li>
                         <li>Manifest.json & Service workers</li>
                         <li>GraphQL & Apollo Server</li>
                         <li>Authentication (JWT)</li>

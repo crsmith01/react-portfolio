@@ -109,7 +109,7 @@ body {
 
 .techList {
   color: white;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 
 .headshot {
