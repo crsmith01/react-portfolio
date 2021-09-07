@@ -20,7 +20,7 @@ export const NavBar = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="/home">
+                <Navbar.Brand as={Link} to="/">
                     <img
                         src="./images/CRS-Logo.gif"
                         width="100"
