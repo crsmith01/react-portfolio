@@ -5,6 +5,7 @@ import Contact from '../Contact';
 // import Image from 'react-bootstrap/Image';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import {Link} from 'react-router-dom';
 // import { LinkContainer } from 'react-router-bootstrap';
 // // import ReactTooltip from 'react-tooltip';
 
@@ -32,11 +33,11 @@ export const NavBar = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         {/* Links for Home, Portfolio, Contact, Resume, and Relevant Socials */}
-                        <Nav.Link href="/react-router/#/home">
+                        <Nav.Link as={Link} to="/">
                             Home
                         </Nav.Link>
 
-                        <Nav.Link href="/react-router/#/portfolio">
+                        <Nav.Link as={Link} to="/portfolio">
                             Portfolio
                         </Nav.Link>
 
