@@ -109,15 +109,24 @@ body {
 
 .techList {
   color: white;
+  align-items: flex-start;
 }
 
 .headshot {
   padding: 50px;
 }
 
+/* not connecting for some reason */
 .hello {
   color:white
 }
+
+
+/* .techTable {
+  align-items: center;
+  justify-content: center;
+} */
+
 
 
 /* Tooltip */

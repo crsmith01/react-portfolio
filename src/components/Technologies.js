@@ -20,10 +20,10 @@ export const Technologies = () => {
                 </Col>
                 <Col>
                     <h2>Programming Tools</h2>
-                    <ul className='techList' type='none'>
-                        <li>GitHub, Git Pages, & Git Commands</li>
-                        <li>Heroku & Digital Oceans</li>
-                        <li>Bootstrap, Bulma, & Semantic UI</li>
+                    <ul className='techList' type='circle'>
+                        <li>GitHub & Git</li>
+                        <li>Heroku & Netlify</li>
+                        <li>Bootstrap & Semantic UI</li>
                         <li>Insomnia & Postman</li>
                         <li>MySQL & Sequelize</li>
                         <li>MongoDB & Mongoose & Robo 3T</li>
