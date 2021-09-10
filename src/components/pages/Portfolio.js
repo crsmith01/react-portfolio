@@ -38,7 +38,7 @@ const Portfolio = () => {
                 Take a look at these recent projects!
             </p>
             <Container style={{ containerStyle }}>
-                <Row className="row-container">
+                {/* <Row className="row-container"> */}
                     <ScrollAnimation
                         animateIn='pulse'
                         offset={500}
@@ -60,7 +60,7 @@ const Portfolio = () => {
                         </Card>
                     </ScrollAnimation>
                     <Container>
-                        <Row>
+                        {/* <Row> */}
                             <Card className='card'>
                                 <a href="https://ancient-lowlands-14789.herokuapp.com/login" target='_blank' rel='noreferrer noopener'>
                                     <Card.Img variant="top" src={cadmium} alt="Cadmium application screenshot" />
@@ -102,108 +102,113 @@ const Portfolio = () => {
                                     <Button variant="outline-primary" href="https://github.com/crsmith01/homework4-code-quiz" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
                                     <Button variant="outline-success" href="https://crsmith01.github.io/homework4-code-quiz/" target='_blank' rel='noreferrer noopener'>Deployed App</Button>                        </Card.Body>
                             </Card>
-                        </Row>
+                        {/* </Row> */}
 
 
 
 
 
+                        {/* <Row> */}
+                            <Card className='card' >
+                                <a href="https://crsmith01.github.io/homework5-day-planner/" target='_blank' rel='noreferrer noopener'>
+                                    <Card.Img variant="top" src={workDayScheduler} alt="Screenshot of deployed work day scheduler application" />
+                                </a>
+                                <Card.Body>
+                                    <Card.Title>Work Day Scheduler</Card.Title>
+                                    <Card.Text>
+                                        Work day scheduling app with color-coded time slots and ability to save notes.
+                                    </Card.Text>
+                                    <Button variant="outline-primary" href="https://github.com/crsmith01/homework5-day-planner" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
+                                    <Button variant="outline-success" href="https://crsmith01.github.io/homework5-day-planner/" target='_blank' rel='noreferrer noopener'>Deployed App</Button>
+                                </Card.Body>
+                            </Card>
 
-                        <Card className='card' >
-                            <a href="https://crsmith01.github.io/homework5-day-planner/" target='_blank' rel='noreferrer noopener'>
-                                <Card.Img variant="top" src={workDayScheduler} alt="Screenshot of deployed work day scheduler application" />
-                            </a>
-                            <Card.Body>
-                                <Card.Title>Work Day Scheduler</Card.Title>
-                                <Card.Text>
-                                    Work day scheduling app with color-coded time slots and ability to save notes.
-                                </Card.Text>
-                                <Button variant="outline-primary" href="https://github.com/crsmith01/homework5-day-planner" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
-                                <Button variant="outline-success" href="https://crsmith01.github.io/homework5-day-planner/" target='_blank' rel='noreferrer noopener'>Deployed App</Button>
-                            </Card.Body>
-                        </Card>
+                            <Card className='card' >
+                                <a href="https://protected-tundra-70136.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
+                                    <Card.Img variant="top" src={fitnessTracker} alt="Screenshot of stats page of fitness tracker application" />
+                                </a>
+                                <Card.Body>
+                                    <Card.Title>Fitness Tracker</Card.Title>
+                                    <Card.Text>
+                                        Application to allow users to view, create, and track daily workouts. Uses MongoDB and Mongoose.
+                                    </Card.Text>
+                                    <Button variant="outline-primary" href="https://github.com/crsmith01/fitness-tracker" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
+                                    <Button variant="outline-success" href="https://protected-tundra-70136.herokuapp.com/" target='_blank' rel='noreferrer noopener'>Deployed App</Button>
+                                </Card.Body>
+                            </Card>
 
-                        <Card className='card' >
-                            <a href="https://protected-tundra-70136.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
-                                <Card.Img variant="top" src={fitnessTracker} alt="Screenshot of stats page of fitness tracker application" />
-                            </a>
-                            <Card.Body>
-                                <Card.Title>Fitness Tracker</Card.Title>
-                                <Card.Text>
-                                    Application to allow users to view, create, and track daily workouts. Uses MongoDB and Mongoose.
-                                </Card.Text>
-                                <Button variant="outline-primary" href="https://github.com/crsmith01/fitness-tracker" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
-                                <Button variant="outline-success" href="https://protected-tundra-70136.herokuapp.com/" target='_blank' rel='noreferrer noopener'>Deployed App</Button>
-                            </Card.Body>
-                        </Card>
+                            <Card className='card' >
+                                <a href="https://mighty-sierra-97786.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
+                                    <Card.Img variant="top" src={progressiveBudget} alt="Screenshot of progressive budget application functionality" />
+                                </a>
+                                <Card.Body>
+                                    <Card.Title>Progressive Budget PWA</Card.Title>
+                                    <Card.Text>
+                                        App with offline access and functionality allows users to add expenses and deposits to their budget with or without a connection.
+                                    </Card.Text>
+                                    <Button variant="outline-primary" href="https://github.com/crsmith01/fitness-tracker" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
+                                    <Button variant="outline-success" href="https://protected-tundra-70136.herokuapp.com/" target='_blank' rel='noreferrer noopener'>Deployed App</Button>
+                                </Card.Body>
+                            </Card>
+                        {/* </Row> */}
 
-                        <Card className='card' >
-                            <a href="https://mighty-sierra-97786.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
-                                <Card.Img variant="top" src={progressiveBudget} alt="Screenshot of progressive budget application functionality" />
-                            </a>
-                            <Card.Body>
-                                <Card.Title>Progressive Budget PWA</Card.Title>
-                                <Card.Text>
-                                    App with offline access and functionality allows users to add expenses and deposits to their budget with or without a connection.
-                                </Card.Text>
-                                <Button variant="outline-primary" href="https://github.com/crsmith01/fitness-tracker" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
-                                <Button variant="outline-success" href="https://protected-tundra-70136.herokuapp.com/" target='_blank' rel='noreferrer noopener'>Deployed App</Button>
-                            </Card.Body>
-                        </Card>
 
-                        <Card className='card' >
-                            <a href="https://salty-refuge-35551.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
-                                <Card.Img variant="top" src={reduxStore} alt="Screenshot of progressive budget application functionality" />
-                            </a>
-                            <Card.Body>
-                                <Card.Title>Redux Store</Card.Title>
-                                <Card.Text>
-                                    App that refactors an existing e-commerce platform so that it uses <a href="https://redux.js.org/" target='_blank' rel='noreferrer noopener'>Redux</a>
-                                </Card.Text>
-                                <Button variant="outline-primary" href="https://github.com/crsmith01/redux-store" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
-                                <Button variant="outline-success" href="https://salty-refuge-35551.herokuapp.com/" target='_blank' rel='noreferrer noopener'>Deployed App</Button>
-                            </Card.Body>
-                        </Card>
+                        {/* <Row> */}
+                            <Card className='card' >
+                                <a href="https://salty-refuge-35551.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
+                                    <Card.Img variant="top" src={reduxStore} alt="Screenshot of progressive budget application functionality" />
+                                </a>
+                                <Card.Body>
+                                    <Card.Title>Redux Store</Card.Title>
+                                    <Card.Text>
+                                        App that refactors an existing e-commerce platform so that it uses <a href="https://redux.js.org/" target='_blank' rel='noreferrer noopener'>Redux</a>
+                                    </Card.Text>
+                                    <Button variant="outline-primary" href="https://github.com/crsmith01/redux-store" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
+                                    <Button variant="outline-success" href="https://salty-refuge-35551.herokuapp.com/" target='_blank' rel='noreferrer noopener'>Deployed App</Button>
+                                </Card.Body>
+                            </Card>
 
-                        <Card className='card' >
-                            <a href="https://github.com/crsmith01/hw11-employee-tracker" target='_blank' rel='noreferrer noopener'>
-                                <Card.Img variant="top" src={employeeTracker} alt="Screenshot of welcome page of employee tracker application" />
-                            </a>
-                            <Card.Body>
-                                <Card.Title>Employee Tracker</Card.Title>
-                                <Card.Text>
-                                    Content Management System to view and manage departments, roles, and employees of a company.
-                                </Card.Text>
-                                <Button variant="outline-primary" href="https://github.com/crsmith01/hw11-employee-tracker" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
-                            </Card.Body>
-                        </Card>
+                            <Card className='card' >
+                                <a href="https://github.com/crsmith01/hw11-employee-tracker" target='_blank' rel='noreferrer noopener'>
+                                    <Card.Img variant="top" src={employeeTracker} alt="Screenshot of welcome page of employee tracker application" />
+                                </a>
+                                <Card.Body>
+                                    <Card.Title>Employee Tracker</Card.Title>
+                                    <Card.Text>
+                                        Content Management System to view and manage departments, roles, and employees of a company.
+                                    </Card.Text>
+                                    <Button variant="outline-primary" href="https://github.com/crsmith01/hw11-employee-tracker" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
+                                </Card.Body>
+                            </Card>
 
-                        <Card className='card' >
-                            <a href="https://github.com/crsmith01/hw12-e-commerce-back-end" target='_blank' rel='noreferrer noopener'>
-                                <Card.Img variant="top" src={eCommerceBackEnd} alt="Gif animation of back end of e-commerce application" />
-                            </a>
-                            <Card.Body>
-                                <Card.Title>E-Commerce Back End</Card.Title>
-                                <Card.Text>
-                                    Back end for an e-commerce site
-                                </Card.Text>
-                                <Button variant="outline-primary" href="https://github.com/crsmith01/hw12-e-commerce-back-end" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
-                            </Card.Body>
-                        </Card>
-
-                        <Card className='card' >
-                            <a href="https://github.com/crsmith01/homework8-readme-generator" target='_blank' rel='noreferrer noopener'>
-                                <Card.Img variant="top" src={readmeGenerator} alt="Screenshot of progressive budget application functionality" />
-                            </a>
-                            <Card.Body>
-                                <Card.Title>README Generator</Card.Title>
-                                <Card.Text>
-                                    A command-line application that dynamically creates a professional README from a user's input via the Inquirer package                            </Card.Text>
-                                <Button variant="outline-primary" href="https://github.com/crsmith01/homework8-readme-generator" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
-                            </Card.Body>
-                        </Card>
+                            <Card className='card' >
+                                <a href="https://github.com/crsmith01/hw12-e-commerce-back-end" target='_blank' rel='noreferrer noopener'>
+                                    <Card.Img variant="top" src={eCommerceBackEnd} alt="Gif animation of back end of e-commerce application" />
+                                </a>
+                                <Card.Body>
+                                    <Card.Title>E-Commerce Back End</Card.Title>
+                                    <Card.Text>
+                                        Back end for an e-commerce site
+                                    </Card.Text>
+                                    <Button variant="outline-primary" href="https://github.com/crsmith01/hw12-e-commerce-back-end" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
+                                </Card.Body>
+                            </Card>
+                        {/* </Row>
+                        <Row> */}
+                            <Card className='card' >
+                                <a href="https://github.com/crsmith01/homework8-readme-generator" target='_blank' rel='noreferrer noopener'>
+                                    <Card.Img variant="top" src={readmeGenerator} alt="Screenshot of progressive budget application functionality" />
+                                </a>
+                                <Card.Body>
+                                    <Card.Title>README Generator</Card.Title>
+                                    <Card.Text>
+                                        A command-line application that dynamically creates a professional README from a user's input via the Inquirer package                            </Card.Text>
+                                    <Button variant="outline-primary" href="https://github.com/crsmith01/homework8-readme-generator" target='_blank' rel='noreferrer noopener'>GitHub Repo</Button>
+                                </Card.Body>
+                            </Card>
+                        {/* </Row> */}
                     </Container>
-                </Row>
+                {/* </Row> */}
             </Container>
         </div>
     )
