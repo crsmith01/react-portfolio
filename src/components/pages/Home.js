@@ -53,7 +53,7 @@ const Home = () => {
                                     <h1 className="aboutMeHeader">About Me</h1>
                                     <br></br>
                                     <p className="about">
-                                        My name is Catherine, and I am an emerging full-stack Javascript web developer currently completing the
+                                        My name is Catherine, and I am an emerging full stack web developer who recently completed the
                                         University of Richmond's Coding Bootcamp. After earning my BA in Music and Shakespeare Studies
                                         at the College of William and Mary, I ventured to Glasgow to acquire my MSc in Information and Library Studies at the
                                         University of Strathclyde. I decided to pursue web development because it's a fast-paced,

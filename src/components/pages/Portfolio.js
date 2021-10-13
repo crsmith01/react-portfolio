@@ -37,7 +37,7 @@ const Portfolio = () => {
             <p>
                 Take a look at these recent projects!
             </p>
-            <Container style={{ containerStyle }}>
+            <Container className="cardsContainer" style={{ containerStyle }}>
                 {/* <Row className="row-container"> */}
                     <ScrollAnimation
                         animateIn='pulse'
@@ -61,7 +61,7 @@ const Portfolio = () => {
                     </ScrollAnimation>
                     <Container>
                         {/* <Row> */}
-                            <Card className='card'>
+                            <Card className='card' style={{ width: '18rem' }}>
                                 <a href="https://ancient-lowlands-14789.herokuapp.com/login" target='_blank' rel='noreferrer noopener'>
                                     <Card.Img variant="top" src={cadmium} alt="Cadmium application screenshot" />
                                 </a>
@@ -76,7 +76,7 @@ const Portfolio = () => {
                                 </Card.Body>
                             </Card>
 
-                            <Card className='card' >
+                            <Card className='card' style={{ width: '18rem' }}>
                                 <a href="https://crsmith01.github.io/homework-3-password-generator/" target='_blank' rel='noreferrer noopener'>
                                     <Card.Img variant="top" src={passwordGenerator} alt="Screenshot of password generator application" />
                                 </a>
@@ -90,7 +90,7 @@ const Portfolio = () => {
                                 </Card.Body>
                             </Card>
 
-                            <Card className='card' >
+                            <Card className='card' style={{ width: '18rem' }}>
                                 <a href="https://github.com/crsmith01/homework4-code-quiz" target='_blank' rel='noreferrer noopener'>
                                     <Card.Img variant="top" src={codingQuiz} alt="Gif animation of back end of e-commerce application" />
                                 </a>
@@ -109,7 +109,7 @@ const Portfolio = () => {
 
 
                         {/* <Row> */}
-                            <Card className='card' >
+                            <Card className='card'style={{ width: '18rem' }} >
                                 <a href="https://crsmith01.github.io/homework5-day-planner/" target='_blank' rel='noreferrer noopener'>
                                     <Card.Img variant="top" src={workDayScheduler} alt="Screenshot of deployed work day scheduler application" />
                                 </a>
@@ -123,7 +123,7 @@ const Portfolio = () => {
                                 </Card.Body>
                             </Card>
 
-                            <Card className='card' >
+                            <Card className='card' style={{ width: '18rem' }}>
                                 <a href="https://protected-tundra-70136.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
                                     <Card.Img variant="top" src={fitnessTracker} alt="Screenshot of stats page of fitness tracker application" />
                                 </a>
@@ -137,7 +137,7 @@ const Portfolio = () => {
                                 </Card.Body>
                             </Card>
 
-                            <Card className='card' >
+                            <Card className='card' style={{ width: '18rem' }}>
                                 <a href="https://mighty-sierra-97786.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
                                     <Card.Img variant="top" src={progressiveBudget} alt="Screenshot of progressive budget application functionality" />
                                 </a>
@@ -154,7 +154,7 @@ const Portfolio = () => {
 
 
                         {/* <Row> */}
-                            <Card className='card' >
+                            <Card className='card' style={{ width: '18rem' }}>
                                 <a href="https://salty-refuge-35551.herokuapp.com/" target='_blank' rel='noreferrer noopener'>
                                     <Card.Img variant="top" src={reduxStore} alt="Screenshot of progressive budget application functionality" />
                                 </a>
@@ -168,7 +168,7 @@ const Portfolio = () => {
                                 </Card.Body>
                             </Card>
 
-                            <Card className='card' >
+                            <Card className='card' style={{ width: '18rem' }}>
                                 <a href="https://github.com/crsmith01/hw11-employee-tracker" target='_blank' rel='noreferrer noopener'>
                                     <Card.Img variant="top" src={employeeTracker} alt="Screenshot of welcome page of employee tracker application" />
                                 </a>
@@ -181,7 +181,7 @@ const Portfolio = () => {
                                 </Card.Body>
                             </Card>
 
-                            <Card className='card' >
+                            <Card className='card' style={{ width: '18rem' }}>
                                 <a href="https://github.com/crsmith01/hw12-e-commerce-back-end" target='_blank' rel='noreferrer noopener'>
                                     <Card.Img variant="top" src={eCommerceBackEnd} alt="Gif animation of back end of e-commerce application" />
                                 </a>
@@ -195,7 +195,7 @@ const Portfolio = () => {
                             </Card>
                         {/* </Row>
                         <Row> */}
-                            <Card className='card' >
+                            <Card className='card' style={{ width: '18rem' }}>
                                 <a href="https://github.com/crsmith01/homework8-readme-generator" target='_blank' rel='noreferrer noopener'>
                                     <Card.Img variant="top" src={readmeGenerator} alt="Screenshot of progressive budget application functionality" />
                                 </a>
